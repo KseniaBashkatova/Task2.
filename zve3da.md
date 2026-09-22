@@ -412,13 +412,13 @@ namespace _3._2
     }
 }
 
-
+```
 `Результат выполнения:`
 <picture>
   <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/3.2.3.png">
 </picture>
 
-```
+
 > ### Программа 14. 
 
 ```csharp
