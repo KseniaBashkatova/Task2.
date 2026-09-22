@@ -183,7 +183,7 @@ namespace ConsoleApp1
 
             int x = 10;
             x = x++ + ++x;
-
+            Console.WriteLine($"Решение: {x}");
         }
     }
  }
