@@ -2175,6 +2175,1088 @@ namespace Cons
 
 ---
 
+ ### Программа 71. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//(5 > 3) && !(10 <= 2) || (4 == 5)
+bool result1 = (5 > 3) && !(10 <= 2) || (4 == 5);
+Console.WriteLine(result1);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.1.png">
+</picture>
+
+ ### Программа 72. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//!(true && false) ^ (true || false && false)
+           bool result2 = !(true && false) ^ (true || false && false);
+Console.WriteLine(result2);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.2.png">
+</picture>
+
+
+ ### Программа 73. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//(10 & 6) == 2 && (10 | 6) == 14
+           bool result3 = (10 & 6) == 2 && (10 | 6) == 14;
+Console.WriteLine(result3);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.3.png">
+</picture>
+
+
+ ### Программа 74. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//(15 >> 1 == 7) && (7 << 2 == 28)
+           bool result4 = (15 >> 1 == 7) && (7 << 2 == 28);
+Console.WriteLine(result4);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.4.png">
+</picture>
+
+
+ ### Программа 75. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//(8 > 5) && (3 + 2 * 4 == 11) && !(false || !true)
+           bool result5 = (8 > 5) && (3 + 2 * 4 == 11) && !(false || !true);
+Console.WriteLine(result5);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.5.png">
+</picture>
+
+
+
+ ### Программа 76. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//(true || false) && (false || true) ^ (true && !false)
+           bool result6 = (true || false) && (false || true) ^ (true && !false);
+Console.WriteLine(result6);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.6.png">
+</picture>
+
+
+
+ ### Программа 77. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//(100 / 10 == 10) && (100 % 30 == 10) && !(5 - 5 != 0)
+           bool result7 = (100 / 10 == 10) && (100 % 30 == 10) && !(5 - 5 != 0);
+Console.WriteLine(result7);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.7.png">
+</picture>
+
+
+
+ ### Программа 78. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//(4 ^ 4) == 0 && (4 ^ 0) == 4 && (0 ^ 0) == 0
+           bool result8 = (4 ^ 4) == 0 && (4 ^ 0) == 4 && (0 ^ 0) == 0;
+Console.WriteLine(result8);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.8.png">
+</picture>
+
+
+
+
+ ### Программа 79. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//!(5 != 5) && ((3 >= 3) || (10 / 0 == 1))
+           bool result9 = !(5 != 5) && ((3 >= 3) || (10 / 0 == 1));
+Console.WriteLine(result9);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.9.png">
+</picture>
+
+
+
+
+ ### Программа 80. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//(false && (10 / 0 == 1)) || (true && (20 > 15))
+           bool result10 = (false && (10 / 0 == 1)) || (true && (20 > 15));
+Console.WriteLine(result10);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.10.png">
+</picture>
+
+
+
+ ### Программа 81. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//(12 & 10) > 5 || (12 | 10) < 15 && !(3 == 3)
+          bool result11 = (12 & 10) > 5 || (12 | 10) < 15 && !(3 == 3);
+Console.WriteLine(result11); 
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.11.png">
+</picture>
+
+ ### Программа 82. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//((20 >> 2) == 5) ^ ((5 << 1) == 11)
+          bool result12 = ((20 >> 2) == 5) ^ ((5 << 1) == 11);
+Console.WriteLine(result12); 
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.12.png">
+</picture>
+
+
+ ### Программа 83. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//!(!(true || false) && (true && !false))
+           bool result13 = !(!(true || false) && (true && !false));
+Console.WriteLine(result13);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.13.png">
+</picture>
+
+
+ ### Программа 84. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//(7 > 2 ? 10 : 20) == 10 && (3 < 1 ? 5 : 15) == 15
+           bool result14 = (7 > 2 ? 10 : 20) == 10 && (3 < 1 ? 5 : 15) == 15;
+Console.WriteLine(result14);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.14.png">
+</picture>
+
+
+ ### Программа 85. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//(5 & 1) == 1 && (6 & 1) == 0 && (7 & 1) == 1 (проверка на нечетность)
+        bool result15 = (5 & 1) == 1 && (6 & 1) == 0 && (7 & 1) == 1;
+Console.WriteLine(result15);   
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.15.png">
+</picture>
+
+
+
+ ### Программа 86. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//((10 > 5 ? true : false) ^ (3 > 8 ? true : false)) && !false
+           bool result16 = ((10 > 5 ? true : false) ^ (3 > 8 ? true : false)) && !false;
+Console.WriteLine(result16);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.16.png">
+</picture>
+
+
+
+ ### Программа 87. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//!( (5 > 2 && 10 > 20) || (3 == 3 && 4 <= 4) )
+           bool result17 = !((5 > 2 && 10 > 20) || (3 == 3 && 4 <= 4));
+Console.WriteLine(result17);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.17.png">
+</picture>
+
+
+
+ ### Программа 88. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//( (1 << 3) == 8 ) && ( (16 >> 4) == 1 ) && ( (2 << 2) == 8 )
+           bool result18 = ((1 << 3) == 8) && ((16 >> 4) == 1) && ((2 << 2) == 8);
+Console.WriteLine(result18);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.18.png">
+</picture>
+
+
+
+
+ ### Программа 89. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//( (10 & 7) == 2 ) || ( (10 | 7) == 15 ) ^ !(4 > 1)
+          bool result19 = ((10 & 7) == 2) || ((10 | 7) == 15) ^ !(4 > 1);
+Console.WriteLine(result19); 
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.19.png">
+</picture>
+
+
+
+
+ ### Программа 90. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//false || true && false || true && !false
+           bool result20 = false || true && false || true && !false;
+Console.WriteLine(result20);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.20.png">
+</picture>
+
+
+
+ ### Программа 91. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//(25 % 4 == 1) && (17 / 3 == 5) && (17 % 3 == 2)
+          bool result21 = (25 % 4 == 1) && (17 / 3 == 5) && (17 % 3 == 2);
+Console.WriteLine(result21); 
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.21.png">
+</picture>
+
+ ### Программа 92. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//( (5 ^ 3 ^ 3) == 5 ) && ( (10 ^ 0) == 10 )
+        bool result22 = ((5 ^ 3 ^ 3) == 5) && ((10 ^ 0) == 10);
+Console.WriteLine(result22);   
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.22.png">
+</picture>
+
+
+ ### Программа 93. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//(true ? (false ? 1 : 2) : (true ? 3 : 4)) == 2
+        bool result23 = (true ? (false ? 1 : 2) : (true ? 3 : 4)) == 2;
+Console.WriteLine(result23);   
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.23.png">
+</picture>
+
+
+ ### Программа 94. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//!(true && !(false || !false))
+       bool result24 = !(true && !(false || !false));
+Console.WriteLine(result24);    
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.24.png">
+</picture>
+
+
+ ### Программа 95. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//( (~0 == -1) && (~(-1) == 0) )
+         bool result25 = (~0 == -1) && (~(-1) == 0);
+Console.WriteLine(result25);  
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.25.png">
+</picture>
+
+
+
+ ### Программа 96. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//( (8 & 4) == 0 ) && ( (8 | 4) == 12 ) && ( (8 ^ 4) == 12 )
+           bool result26 = ((8 & 4) == 0) && ((8 | 4) == 12) && ((8 ^ 4) == 12);
+Console.WriteLine(result26);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.26.png">
+</picture>
+
+
+
+ ### Программа 97. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//!(10 >= 10) || (5 < 3) && (2 == 2) || !(false)
+      bool result27 = !(10 >= 10) || (5 < 3) && (2 == 2) || !(false);
+Console.WriteLine(result27);     
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.27.png">
+</picture>
+
+
+
+ ### Программа 98. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//( (15 & ~1) == 14 ) && ( (14 | 1) == 15 )
+           bool result28 = ((15 & ~1) == 14) && ((14 | 1) == 15);
+Console.WriteLine(result28);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.28.png">
+</picture>
+
+
+
+
+ ### Программа 99. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//( (true || false) ? (false && true ? 10 : 20) : 30 ) == 20
+           bool result29 = ((true || false) ? (false && true ? 10 : 20) : 30) == 20;
+Console.WriteLine(result29);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.29.png">
+</picture>
+
+
+
+
+ ### Программа 100. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//( (10 > 2) && (5 < 9) ) ^ ( !(4 >= 5) && (6 != 7) )
+           bool result30 = ((10 > 2) && (5 < 9)) ^ (!(4 >= 5) && (6 != 7));
+Console.WriteLine(result30);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.30.png">
+</picture>
+
+
+
+ ### Программа 101. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//(7 & 3 & 1) == 1 && (7 | 3 | 1) == 7
+        bool result31 = (7 & 3 & 1) == 1 && (7 | 3 | 1) == 7;
+Console.WriteLine(result31);   
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.31.png">
+</picture>
+
+ ### Программа 102. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//( (10 > 5 && 3 < 1) || (8 == 8 && !(5 > 10)) ) && (4 + 4 == 8)
+        bool result32 = ((10 > 5 && 3 < 1) || (8 == 8 && !(5 > 10))) && (4 + 4 == 8);
+Console.WriteLine(result32);   
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.32.png">
+</picture>
+
+
+ ### Программа 103. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//!( (!(true && false) || !(true || false)) && !false )
+           bool result33 = !((!(true && false) || !(true || false)) && !false);
+Console.WriteLine(result33);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.33.png">
+</picture>
+
+
+ ### Программа 104. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//( (32 >> 3 == 4) && (4 << 3 == 32) ) ^ ( (15 & 7) == 7 && (15 | 7) == 15 )
+          bool result34 = (((32 >> 3) == 4) && ((4 << 3) == 32)) ^ (((15 & 7) == 7) && ((15 | 7) == 15));
+Console.WriteLine(result34); 
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.34.png">
+</picture>
+
+
+ ### Программа 105. 
+ 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cons
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+//( (5 > 3 ? (2 > 1 ? true : false) : false) && !( (10 > 20) || (30 < 15) ) )
+           bool result35 = (5 > 3 ? (2 > 1 ? true : false) : false) && !((10 > 20) || (30 < 15));
+Console.WriteLine(result35);
+        }
+    }
+}
+
+```
+
+`Результат выполнения:`
+<picture>
+  <img src="https://github.com/KseniaBashkatova/Task2./blob/main/asssets/4.35.35.png">
+</picture>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 🧑‍💻 Ссылка на практическую работу №2 и преподавателя [github](https://github.com/U5er01Task/Fundamentals-of-Algorithmization-and-Programming-2026/tree/main) - [Преподаватель](https://github.com/U5er01Task)
 
 ---
